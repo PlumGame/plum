@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13ef7259.css",
+    "main.js": "/static/js/main.afe8f8fc.js",
+    "static/media/plumcoin.png": "/static/media/plumcoin.cae46911f186129bd37f.png",
+    "static/media/plum.png": "/static/media/plum.45eeb1c2cefd302daea5.png",
+    "static/media/mySticker.png": "/static/media/mySticker.5fd6a95979bce2afa169.png",
+    "static/media/finger.png": "/static/media/finger.d053047c70d1fa8ffacd.png",
+    "static/media/spin.png": "/static/media/spin.7e811563d371ef76b7b6.png",
+    "static/media/click.png": "/static/media/click.646d7096884516a03606.png",
+    "static/media/autotap.png": "/static/media/autotap.e5be9bf379e07b571b87.png",
+    "static/media/Roulete.png": "/static/media/Roulete.cdd18f194753110041de.png",
+    "static/media/CriticalDamage.png": "/static/media/CriticalDamage.59c48df2884ea6c5f70d.png",
+    "static/media/settings.png": "/static/media/settings.e1dd8e26528d24ebf469.png",
+    "static/media/upgrades.png": "/static/media/upgrades.93ff3c2e9e064c315e89.png",
+    "static/media/shop.png": "/static/media/shop.d36d178ceabd6af32edf.png",
+    "static/media/sound-on.png": "/static/media/sound-on.b45ca3a69adbdca14c63.png",
+    "static/media/sound-off.png": "/static/media/sound-off.fb89d011675870cf6b90.png",
+    "static/media/click.mp3": "/static/media/click.485474095c7f5fd47cdd.mp3",
+    "index.html": "/index.html",
+    "main.13ef7259.css.map": "/static/css/main.13ef7259.css.map",
+    "main.afe8f8fc.js.map": "/static/js/main.afe8f8fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ef7259.css",
+    "static/js/main.afe8f8fc.js"
+  ]
+}
