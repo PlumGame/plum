@@ -1,0 +1,35 @@
+{
+  "short_name": "Plum Tap",
+  "title": "Plum Clicker Game",
+  "description": "Plum Tap — весёлая кликер-игра с заданиями, скинами и таблицей лидеров. Доступна премиум-версия через Telegram-бот CryptoBot.",
+  "url": "https://plumtoken.netlify.app",
+  "platform": ["web"],
+  "category": "game",
+  "language": "multilang",
+  "author": {
+    "name": "ПАТРІОТ",
+    "telegram": "@patriot_dp"
+  },
+  "screenshot_urls": [
+    "https://plumtoken.netlify.app/screenshot1.png",
+    "https://plumtoken.netlify.app/screenshot2.png",
+    "https://plumtoken.netlify.app/screenshot3.png"
+  ],
+  "tags": [
+    "игра",
+    "telegram",
+    "clicker",
+    "plum",
+    "друзья",
+    "мультиязычность",
+    "уровни",
+    "скины",
+    "задания"
+  ],
+  "instructions": {
+    "en": "Tap the plum, earn coins, complete tasks, unlock skins and compete with your friends!",
+    "ru": "Кликай по сливе, зарабатывай монеты, выполняй задания, открывай скины и соревнуйся с друзьями!",
+    "uk": "Клікай на сливу, заробляй монети, виконуй завдання, відкривай скіни та змагайся з друзями!"
+  },
+  "recommended": true
+}

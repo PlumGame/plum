@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Эффект рассеивания для Plums */
+@keyframes scatter {
+  0% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
+  100% { transform: translate(calc(-50% + var(--offset-x)), calc(-50% + var(--offset-y))) scale(0.5); opacity: 0; }
+}
+.animate-scatter {
+  animation: scatter 0.3s forwards;
+}
+
+/* Поп эффект */
+@keyframes pop {
+  0% { transform: scale(0); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-pop {
+  animation: pop 0.5s ease-out forwards;
+}
+
+/* Анимация плавного движения чисел (гарантированно поверх стикера) */
+@keyframes floatUp {
+  0% { opacity: 1; transform: translate(0, 0) scale(1); }
+  100% { opacity: 0; transform: translate(var(--final-x), var(--final-y)) scale(1); }
+}
+.animate-float {
+  animation: floatUp 2s ease-out forwards;
+  position: absolute;
+  z-index: 100; /* Поверх всех элементов */
+  pointer-events: none; /* Исключаем из взаимодействий */
+}
+
+/* Контейнер для карусели */
+.carousel-container {
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@keyframes slowGoldPulse {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes goldShimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.rotate {
+  animation: spin 2s linear infinite;
+}
+
+/* Фиксированная кнопка "назад" */
+.back-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+@keyframes pulseGoldCard {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.gold-card-animated {
+  background-size: 300% 300%;
+  animation: pulseGoldCard 8s ease-in-out infinite;
+}
+
+.tonkeeper-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  border: 2px solid #1e88e5;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e88e5;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.tonkeeper-button:hover {
+  background-color: #e3f2fd;
+  transform: translateY(-2px);
+}
+
+.tonkeeper-icon {
+  width: 24px;
+  height: 24px;
+}
+
+html, body {
+  touch-action: manipulation;
+  overscroll-behavior: contain;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

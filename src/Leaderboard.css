@@ -1,0 +1,18 @@
+.leaderboard-list-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,11 @@
+.shop-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.5); /* emerald-400 */
+  backdrop-filter: blur(12px);
+  border-radius: 1.5rem;
+  box-shadow: inset 0 0 10px rgba(0, 255, 128, 0.2);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

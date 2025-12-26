@@ -1,0 +1,4 @@
+html, body {
+  touch-action: manipulation;
+  overscroll-behavior: contain;
+}
